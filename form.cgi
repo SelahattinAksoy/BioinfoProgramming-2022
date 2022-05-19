@@ -22,7 +22,7 @@ print('''
     <div class="col-sm mt-1  text-center text-white bg-info rounded ">
 
 
-<form action="selo2.cgi"  class="p-3">
+<form action="getvalue.cgi"  class="p-3">
   <div class="form-group mt-1">
     <label for="exampleInputEmail1">ID</label>
     <input type="text" name="id"  class="form-control" placeholder="Enter email" required>
