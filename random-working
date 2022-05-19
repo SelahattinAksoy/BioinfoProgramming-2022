@@ -1,7 +1,7 @@
 from Bio import Entrez,SeqIO
 
 Entrez.email = "aksoyeren80@gmail.com"
-'''
+
 handle = Entrez.esearch(db="nucleotide", retmax=10, term="opuntia[ORGN] accD", idtype="acc")
 
 record = Entrez.read(handle)
@@ -28,10 +28,8 @@ import numpy as np
 
 plt.hist(x)
 plt.show() 
-'''
 
 
-'''
 #1
 import matplotlib.pyplot as plt
 from Bio import Entrez,SeqIO
@@ -195,4 +193,4 @@ for i in protein_list:
 print(num)
 
 
-'''
+
